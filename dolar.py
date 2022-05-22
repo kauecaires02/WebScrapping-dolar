@@ -4,7 +4,7 @@ import requests
 
 from bs4 import BeautifulSoup       
 
-  headers = {'User-Agent':'Mozila/5.0 Windows NT 10.0;WOW64;Trident/7.0; rv:11.0)'}
+  headers = {'User-Agent':('Mozila/5.0 Windows NT 10.0;WOW64;Trident/7.0; rv:11.0)'}
 
      page = requests.get("https://dolarhoje.com/"headers=header) #Acessar site
 
